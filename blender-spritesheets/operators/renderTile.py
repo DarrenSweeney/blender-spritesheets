@@ -24,7 +24,7 @@ class RenderTile(bpy.types.Operator):
         scene.render.image_settings.file_format = 'PNG'
         scene.render.image_settings.color_mode = 'RGBA'
         scene.render.film_transparent = True  # Transparent PNG
-        scene.render.bake_margin = 0
+        #scene.render.bake_margin = 0
         scene.render.resolution_percentage = 100
         scene.render.resolution_x = props.tileSize[0]
         scene.render.resolution_y = props.tileSize[1]
