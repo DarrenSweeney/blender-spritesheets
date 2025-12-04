@@ -1,3 +1,8 @@
+# Divergences in this fork.
+* Tested and fixed for the latest version of blender at time of fork. Blender 5.0
+* Provide abiltiy to use UI while a render is in progress.
+#
+
 # Blender Sprite Sheets
 ## Overview
 This addon allows you to export an animated 3D model to a sprite sheet and import it into Unity. It can be used for pixel art or pseudo-3D assets to improve performance in your game projects. Simply model, rig, and animate your assets in Blender as you would normally, and then export all animations to a texture sheet and metadata sidecar. These two files can be imported into Unity, automatically creating animations for each Blender action.
